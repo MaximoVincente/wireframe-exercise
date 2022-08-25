@@ -1,0 +1,67 @@
+body{
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(93, 93, 93);
+    display: inline-block;
+
+}
+
+#header{
+    display: inline-block;
+    width: 100;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#header nav{
+    width: 65%;
+    margin-top: 23px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header a{
+    padding-left: 15px;
+    padding-right: 74px;
+    color: rgb(152, 150, 150);
+    text-decoration: none;
+}
+
+#header img{
+    margin-left: 40px;
+}
+
+.hero{
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.sub-banner{
+    margin-top: 30px;
+    margin-left: 38px;
+}
+
+.sub-banner img{
+    margin-left: 30px;
+}
+
+.sec-banner{
+    margin-left:68px;
+    margin-top: 30px;
+    display: inline-flex;
+}
+
+.sec-banner article{
+    width: 28%;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.sec-banner h2{
+    font-size: larger;
+    margin-bottom: 5px;
+    
+}
